@@ -1,0 +1,89 @@
+
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-inverse {
+    background: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background: black;
+
+}
+.dropdown-menu li a{
+    font-weight: bold;
+    color:white;
+}
+.jumbotron{
+    background: #428BCA;
+    color: white;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+
+}
+
+.panel{
+    margin-top: 10px;
+}
+.panel-success{
+    border:1px solid green;
+}
+.panel-success > .panel-heading{
+    border-bottom:1px solid green;
+    color:#398439;
+}
+.panel-info{
+    border:1px solid #428BCA;
+}
+.panel-info > .panel-heading{
+    border-bottom:1px solid #428bca;
+    color:#428BCA;
+}
+
+
+
+
+
+
+article{
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999; 
+}
+
+.titulo{
+    color:#333;
+}
+
+/*Caja de la imagen*/
+article a{
+    width:45%;
+    margin-right: 10px;
+}
+article a img{
+    width: 100%;
+    margin:0px;
+}.thumbnail{margin:0px}
+/*Haciendo responsive nuestro sitio  ,Dispositivos pequen*/
+#colegio{
+    color:white;
+}
+@media screen and (max-width: 768px ){
+    article a{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+
+    }
+    #slider{
+        padding: 0px;
+        margin: 5px;    
+
+    }
+    #slider ol li{
+        display:none;
+    }
+
+}
